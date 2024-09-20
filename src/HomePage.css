@@ -1,0 +1,40 @@
+.home {
+  height: 100vh;
+  background-image: url("software-developer-6521720_640.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.content h1 , .content h2{
+  color:white
+}
+/* Styles des boutons */
+.content .btn { 
+  font-size: 1.25rem; 
+  padding: 10px 30px;
+  margin: 10px;
+}  
+
+/* Section À propos */
+.about-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin : 40px 60px 80px;
+}
+
+.skills .progress { 
+  height: 20px; 
+  border-radius: 10px; 
+}
+
+.skills .progress-bar { 
+  font-size: 0.9rem; 
+  line-height: 20px; 
+}
